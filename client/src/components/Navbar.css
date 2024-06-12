@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 140rem;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 5);
+
+}
+ul{
+    display: flex;
+    gap: 3.2rem;
+    
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 121, 253);
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
